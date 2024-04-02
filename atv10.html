@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários HTML</title>
+    <link rel="stylesheet" href="C:\Users\vinicius_m_silveira\Desktop\atv10\atv10.css">
+</head>
+<body>
+   <section id="section10">
+    <div>       
+            <hr>
+            <h2>Utilização de um formulário:</h2>
+            <hr>
+        <div>
+            <p><li>Form é a tag de criação do formulário</li><p>
+            <p><li>O action faz o caminho para onde os dados do formulário serão enviados quando o formulário for submetido</li></p>
+            <p><li>Method: existem duas funções principais, podendo ser "post" ou "get",Get:Os dados do formulário são anexados à URL especificada no atributo action, resultando em uma URL. Post: são enviados no corpo da solicitação HTTP, tornando-os mais seguros e adequados para enviar grandes quantidades de dados ou dados sensíveis assim como as senhas.</li></p>
+        <form action="/pagRedirecionamentoInfos.html" method="post">
+                <br>
+            <div >
+                <p><li>O label é como se fosse uma div que estivesse rotulando com o nome da função, Na parte que é inserida alguma informação</li></p>
+                <p><li>Já o input email cria uma caixa inteligente para o campo de email, logo assim ele puxa o histórico de emails salvos em cada navegador</li></p>
+                <p><li>O aria-label coloca uma audiodescrição do campo</li></p>
+                <label for="nome">Seu nome completo:</label>
+                <span aria-label="required">*</span>
+                <br>
+                <input type="text"  id="nome">
+            </div>
+
+            <div>
+                <label for="apelido">Seu apelido:</label>
+                <span aria-label="required">*</span>
+                <br>
+                <input type="text" id="apelido">
+
+
+            <div>
+                <label for="dataNascimento">Sua data de Nascimento:</label>
+                <span aria-label="required">*</span>
+                <br>
+                <input type="date" id="dataNascimento">
+
+            </div>
+
+            <div>
+                <label for="email">E-mail:</label>
+                <span aria-label="required">*</span>
+                <br>
+                <input type="e-mail" id="e-mail">
+            </div>
+
+            <div>
+                <label for="senhaE-mail">Senha:</label>
+                <span aria-label="required">*</span>
+                <br>
+                <input type="password"  id="senhaE-mail">
+            </div>
+
+            <div>
+                <label for="arquivo">Anexe o arquivo de sua escolha:</label>
+                <br>
+                <input type="file" name="file_user" id="arquivo">
+            </div>
+        </form>
+    </div>
+        
+</body>
+</html>

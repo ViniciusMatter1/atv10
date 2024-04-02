@@ -1,0 +1,22 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 15px;
+    padding: 15px;
+    background-color: rgb(255, 0, 119);
+}
+#section10{
+    border-radius: 25px;
+    text-align: left;
+    background-color:rgb(255, 255, 255);
+    height: 75vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    div{
+        padding-left: 1vmin;
+        margin-bottom: 1vmin;
+    }
+    h2{
+        text-align: center;
+    }
+}
